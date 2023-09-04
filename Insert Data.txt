@@ -1,0 +1,222 @@
+INSERT INTO COMPANY
+VALUES
+('C001','Samsung','37A Jalan Bakawali 52 Taman Jaya, 81100 Johor Bahru Johor'),
+('C002','Apple','No. 43 Jln Lombong Emas 2 Taman Industri Ringan Mps 70200 Negeri Sembilan'),
+('C003','Xiaomi','1 Blok 488D One Stop Centre Jln Burma 10350 Penang'),
+('C004','Banana','G Wisma Mirama Jln Wisma Putra 50460 Wilayah Persekutuan'),
+('C005','Pineapple','27 Jln Permatang 2 Taman Desa Jaya 81100 Johor'),
+('C006','Tesla','7 Batu 2/3 Jalan Taman Perindustrian Tampoi Jaya Johor Bahru'),
+('C007','Nike','No. 55 Jln Telawi 3 Bangsar Baru Kuala Lumpur'),
+('C008','Puma','2 2 Jln Tp 5 Taman Perindustrian Sime Uep Petaling Jaya'),
+('C009','Adidas','C 3A 23 4Th Floor Blok C Megan Phoenix Jalan 2/142A Km 10 Jalan Cheras Mal Kuala Lumpur'),
+('C010','Huawei','Bangunan Kerjasama Jln Dhoby Johor Bahru');
+
+INSERT INTO JOB
+VALUES
+('J001','2023-01-01',5,'PL001'),
+('J002','2023-01-15',7,'PL002'),
+('J003','2023-01-20',3,'PL003'),
+('J004','2023-01-25',5,'PL004'),
+('J005','2023-02-01',4,'PL005'),
+('J006','2023-01-22',6,'PL006'),
+('J007','2023-01-08',6,'PL007'),
+('J008','2023-01-07',3,'PL008'),
+('J009','2023-01-17',1,'PL009'),
+('J010','2023-01-23',2,'PL010');
+
+INSERT INTO JOB_POSITION
+VALUES
+('JP001','Accountant','Management and reporting of financial data','J001'),
+('JP002','Social media manager','Identifying trends in customer interactions','J002'),
+('JP003','Technical support specialist','Providing technical support','J003'),
+('JP004','Business analyst','Defining business problems','J004'),
+('JP005','Sales trainee','Observing the sales process by assisting sales representatives','J005'),
+('JP006','Human resources manager','Overseeing the administrative functions of an organization','J006'),
+('JP007','Chief financial officer','Racking cash flow and financial planning','J007'),
+('JP008','Product manager','Identifying  customer need and  larger business objectives','J008'),
+('JP009','Business analyst','Defining business problems','J009'),
+('JP010','Finance manager','Budget planning','J010');
+
+INSERT INTO JOB_CATEGORY
+VALUES
+('JC001','Finance','J001'),
+('JC002','Marketing','J002'),
+('JC003','Customer service','J003'),
+('JC004','Business','J004'),
+('JC005','Sales','J005'),
+('JC006','Human resource','J006'),
+('JC007','Finance','J007'),
+('JC008','Marketing','J008'),
+('JC009','Business','J009'),
+('JC010','Finance','J010');
+
+INSERT INTO JOB_PLATFORM
+VALUES
+('PL001','Facebook','https://www.jobstreet.com.my/en/job-search/department-jobs/'),
+('PL002','Youtube','https://blog.hubspot.com/marketing/marketing-job-descriptions'),
+('PL003','Linkedin','https://blog.hubspot.com/service/what-are-customer-service-jobs'),
+('PL004','Facebook','https://www.indeed.com/career-advice/career-development/business-departments'),
+('PL005','Instagram','https://www.pipedrive.com/en/blog/types-of-sales-jobs'),
+('PL006','Youtube','https://www.theladders.com/'),
+('PL007','Linkedin','https://angel.co/'),
+('PL008','Instagram','https://www.internships.com/'),
+('PL009','Linkedin','https://www.linkedin.com/feed/'),
+('PL010','Facebook','https://www.jobstreet.com.my/en/companies/610504-aeon-co-m');
+
+INSERT INTO APPLICANT_DOCUMENT
+VALUES
+('D001','SoftCopy','2023-03-08'),
+('D002','HardCopy','2023-02-20'),
+('D003','HardCopy','2023-03-08'),
+('D004','SoftCopy','2023-03-04'),
+('D005','SoftCopy','2023-02-08'),
+('D006','SoftCopy','2023-02-20'),
+('D007','SoftCopy','2023-01-16'),
+('D008','SoftCopy','2023-02-08'),
+('D009','SoftCopy','2023-02-25'),
+('D010','SoftCopy','2023-02-28');
+
+INSERT INTO APPLICATION_DETAIL
+VALUES
+('AP001','2023-03-01','Degree','5 Years',4,'D001','J001'),
+('AP002','2023-02-13','O-Level','4 Years',5,'D002','J002'),
+('AP003','2023-03-01','A-Level','3 Years',3,'D003','J003'),
+('AP004','2023-02-24','Degree','4 Years',1,'D004','J004'),
+('AP005','2023-02-01','Degree','13 Years',2,'D005','J005'),
+('AP006','2023-02-12','Degree','1 Years',6,'D006','J006'),
+('AP007','2023-01-09','Degree','5 Years',5,'D007','J007'),
+('AP008','2023-02-01','Master','10 Years',3,'D008','J008'),
+('AP009','2023-02-17','Degree','8 Years',5,'D009','J009'),
+('AP010','2023-02-20','Phd','10 Years',3,'D010','J010');
+
+INSERT INTO APPLICANT_CREDENTIAL
+VALUES
+('CR001',0,'Excellent'),
+('CR002',0,'Good'),
+('CR003',2,'Poor'),
+('CR004',0,'Good'),
+('CR005',1,'Dissatisfaction'),
+('CR006',0,'Good'),
+('CR007',0,'Excellent'),
+('CR008',0,'Excellent'),
+('CR009',0,'Excellent'),
+('CR010',0,'Excellent');
+
+INSERT INTO APPLICANT
+VALUES
+('A001','Eric','Louis','ericlouis90@gmail.com','012-9339692','941112-10-5847','No.20 Mankato Mississippi 96522 Selangor',29,'CR001'),
+('A002','Adam','Zafar','adamzafar32@gmail.com','010-5990205','970123-13-6083','No.17 Frederick Nebraska 20620 Sarawak',26,'CR002'),
+('A003','Carl','Fong','carlfong01@gmail.com','015-8448683','010308-02-9421','No1. Street Roseville 11523 Kedah',22,'CR003'),
+('A004','Steve','Job','stevejob60@gmail.com','016-7667173','901220-09-7147','No.69 San Antonio 47096 Perlis',33,'CR004'),
+('A005','Thomas','Musk','thomasmusk1884@gmail.com','013-9889696','840920-01-1421','No.67 Road Chelsea 67708 Johor',38,'CR005'),
+('A006','Anakin','Yee','anakinyeeee@gmail.com','010-5984453','980715-14-8573','9,  Jalan Kaskas, Taman Cheras, 52082 Cheras, Wilayah Persekutuan Kuala Lumpur, Malaysia',25,'CR006'),
+('A007','Janice','Wong','Janiceee_77@gmail.com','019-3774189','920422-07-5104','84, Lebuh Pasar, George Town, 10933 George Town, Pulau Pinang',31,'CR007'),
+('A008','Benedict','Cumberbatch','wizard123@gmail.com','016-8513312','850228-08-9655','40, Jalan Gunung Rapat, Taman Rapat Setia, 304 Ipoh, Perak',37,'CR008'),
+('A009','Henry','Lau','henrylau1980@gmail.com','018-3364758','891225-01-2167','44, Jln Medini Sentral 5, 79194 Nusajaya, Johor',34,'CR009'),
+('A010','Allan','Skywalker','allanskywalker99@gmail.com','011-7741258','880103-10-0473','54, Jalan Subang, Industries Park, 4761 Subang Jaya, Selangor',35,'CR010');
+
+INSERT INTO RESUME
+VALUES
+('AP001','A001','Equipped with finance knowledge'),
+('AP002','A002','Ability in communication'),
+('AP003','A003','Ability in solving problem'),
+('AP004','A004','Ability in analyzing business data'),
+('AP005','A005','Ability in communication'),
+('AP006','A006','Ability in leadership and time management'),
+('AP007','A007','Equipped with finance knowledge'),
+('AP008','A008','Ability in communication'),
+('AP009','A009','Ability in analyzing business data'),
+('AP010','A010','Equipped with finance knowledge');
+
+INSERT INTO SELECTION_PROCESS
+VALUES
+('SE001','2023-03-27','Senior Level','Amy','C001'),
+('SE002','2023-03-04','Junior Level','Sean','C002'),
+('SE003','2023-03-26','Junior Level','Allan','C003'),
+('SE004','2023-03-16','Senior Level','John','C004'),
+('SE005','2023-02-25','Higher Level','Anderson','C005'),
+('SE006','2023-03-04','Fresh Graduate Level','Emily','C006'),
+('SE007','2023-01-30','Senior Level','Stan','C007'),
+('SE008','2023-02-24','Higher Level','Robert','C008'),
+('SE009','2023-03-11','Senior Level','Nicole','C009'),
+('SE010','2023-03-15','Higher Level','Jacky','C010');
+
+INSERT INTO APPLICANT_EVALUATION
+VALUES
+('EV001','Good learning ability','A','AP001'),
+('EV002','Job hopper','C','AP002'),
+('EV003','Weak leadership','C','AP003'),
+('EV004','Poor communication skill','D','AP004'),
+('EV005','Strong leadership','S','AP005'),
+('EV006','Lack of experience','C','AP006'),
+('EV007','Creative thinking','A','AP007'),
+('EV008','Well experienced with professional knowledge based','A','AP008'),
+('EV009','Good communication skill','B','AP009'),
+('EV010','Good problem solving skill','S','AP010');
+
+INSERT INTO BRANCH
+VALUES
+('SE001','EV001','Penang','PN1'),
+('SE002','EV002','Sarawak','SRW3'),
+('SE003','EV003','Perak','PK4'),
+('SE004','EV004','Selangor','SE3'),
+('SE005','EV005','Perlis','PS4'),
+('SE006','EV006','Melaka','MK5'),
+('SE007','EV007','Pahang','PH2'),
+('SE008','EV008','Johor','JH1'),
+('SE009','EV009','Sabah','SB2'),
+('SE010','EV010','Selangor','SE2');
+
+INSERT INTO APPLICATION_TEST
+VALUES
+('TT001','12:00','14:00','Perfomance-Based',95,'AP001'),
+('TT002','12:00','14:00','Perfomance-Based',70,'AP002'),
+('TT003','14:00','16:00','Communication',60,'AP003'),
+('TT004','12:00','14:00','Behavioural',68,'AP004'),
+('TT005','14:00','16:00','Communication',92,'AP005'),
+('TT006','12:00','14:00','Perfomance-Based',74,'AP006'),
+('TT007','14:00','16:00','Perfomance-Based',93,'AP007'),
+('TT008','14:00','16:00','Communication',90,'AP008'),
+('TT009','12:00','14:00','Bahavioural',88,'AP009'),
+('TT010','14:00','16:00','Communication',97,'AP010');
+
+INSERT INTO INTERVIEW
+VALUES
+('SE001','TT001','10.00','SETA1'),
+('SE002','TT002','10.00','SETA3'),
+('SE003','TT003','12.00','SETB2'),
+('SE004','TT004','10.00','SETC2'),
+('SE005','TT005','12.00','SETB1'),
+('SE006','TT006','10.00','SETA3'),
+('SE007','TT007','12.00','SETA2'),
+('SE008','TT008','12.00','SETB3'),
+('SE009','TT009','10.00','SETC2'),
+('SE010','TT010','12.00','SETB1');
+
+INSERT INTO TEST_RESULT
+VALUES
+('R001','A','A','A','A','TT001'),
+('R002','B','C','B','B','TT002'),
+('R003','C','B','C','C','TT003'),
+('R004','C','C','A','B','TT004'),
+('R005','A','A','B','A','TT005'),
+('R006','B','C','A','B','TT006'),
+('R007','A','B','A','A','TT007'),
+('R008','B','A','A','A','TT008'),
+('R009','A','C','A','A','TT009'),
+('R010','A','A','A','A','TT010');
+
+INSERT INTO INTERVIEW_DECISION
+VALUES
+('DD001','Yes','Pass','SE001','R001'),
+('DD002','No','Fail','SE002','R002'),
+('DD003','No','Fail','SE003','R003'),
+('DD004','No','Fail','SE004','R004'),
+('DD005','Yes','Pass','SE005','R005'),
+('DD006','No','Fail','SE006','R006'),
+('DD007','Yes','Pass','SE007','R007'),
+('DD008','Yes','Pass','SE008','R008'),
+('DD009','Yes','Pass','SE009','R009'),
+('DD010','Yes','Pass','SE010','R010');
+
+
